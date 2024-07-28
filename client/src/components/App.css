@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  font-family: 'Rock Salt';
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  border-radius: 8px;
+}
+
+button{
+  font-family: 'Rock Salt';
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid rgb(227, 227, 227);
+  background-color: #282c34;
+  margin-left: 5px;
+  font-family: 'Rock Salt';
+}
+
+input[type=text]:focus {
+  background-color: rgb(121, 126, 129);
+}
+
+.div-form {
+  border-bottom: 2px solid red;
+  margin-bottom: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.nocenter{
+  text-align: justify;
+}
+
+.button {
+  background-color: grey; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  background-color: white; 
+  color: black;
+}
+
+button:disabled {
+  background-color: #393737;
+  color: #504e4e;
+  pointer-events: none;
+  cursor: not-allowed;
+  
+}
+
+.addUser-btn {
+  background-color: #2C53DE;
+}
+
+.save-btn {
+  background-color:  #4CAF50;
+}
+
+.cards {
+  border-bottom: solid rgb(121, 126, 129) 1px ; 
+}
+
+.delete-btn {
+  background-color: #d93647; /* red */
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.listed {
+  display: flex;
+  justify-content: space-between;
+}
+.listed button {
+  margin-left: 15px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
