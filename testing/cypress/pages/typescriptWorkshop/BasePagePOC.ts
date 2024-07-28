@@ -9,7 +9,7 @@ export default class BasePage {
   //  🟢 La función recibe un locator en forma de string ejemplo ".nombres"
   //  🟢 Dentro de la funcion se localizan todos los elementos que coincidan con el locator y se almacenan en un array
   //  🟢 Recorriendo el Array almacenamos el otro array el valor del texto en cada elemento
-  //  🟢 La función debe retornar un array con el valor del texto contenido dentro cada elemento que coincida con el locator
+  //  🟢 La función debe retornar un array con el valor del texto contenido dentro de cada elemento 
 
   async getStringElementsByLocator(locator: string) {
     // Tu código aquí:
