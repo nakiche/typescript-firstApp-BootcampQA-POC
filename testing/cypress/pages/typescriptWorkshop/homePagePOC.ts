@@ -53,7 +53,7 @@ class HomePage extends BasePage {
   //Completa la funcion getListedUsers() para que devuelva el texto contenido en cada elemento de la lista
 
   //REQUISITOS:
-  //  🟢 La función utiliza la funcion this.getStringElementsByLocator() de la clase base
+  //  🟢 La función utiliza la funcion this.getElementsTextContentByLocator() de la clase base
   //  🟢 La función debe retornar un array con los valores de texto contenidos dentro cada elemento que coincida
   //   con el locator en este caso los nomnbres y apellidos
 

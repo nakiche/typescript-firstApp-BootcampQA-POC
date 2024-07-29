@@ -10,7 +10,7 @@ export default class BasePage {
      * @param {string} locator - Html elements array
      * @returns {Promise<string>}
      */
-     async getStringElementsByLocator(locator: string): Promise<string[]> {
+     async getElementsTextContentByLocator(locator: string): Promise<string[]> {
         return new Promise<string[]>((resolve): void => {
             cy.get(locator).then((items: JQuery<HTMLElement>): void => {
                 let response: string[] = []

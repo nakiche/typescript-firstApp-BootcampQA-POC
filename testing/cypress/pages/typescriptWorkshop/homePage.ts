@@ -44,7 +44,7 @@ class HomePage extends BasePage {
    * @returns {Promise<string[]>}
    */
   async getListedUsers(): Promise<string[]> {
-    return (await this.getStringElementsByLocator(
+    return (await this.getElementsTextContentByLocator(
       pageLocators.userNames
     )) as string[];
   }

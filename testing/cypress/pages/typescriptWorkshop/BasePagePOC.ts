@@ -3,7 +3,7 @@ export default class BasePage {
   // ⚠️ NO MODIFICAR NADA POR ENCIMA DE ESTA LÍNEA ⚠️
 
   // 1️⃣ ***** EJERCICIO 1 ***** 1️⃣
-  //Completa la funcion getStringElementsByLocator() para que devuelva el texto contenido dentro de cada elemento recibido
+  //Completa la funcion getElementsTextContentByLocator() para que devuelva el texto contenido dentro de cada elemento recibido
 
   //REQUISITOS:
   //  🟢 La función recibe un locator en forma de string ejemplo ".nombres"
@@ -11,7 +11,7 @@ export default class BasePage {
   //  🟢 Recorriendo el Array almacenamos el otro array el valor del texto en cada elemento
   //  🟢 La función debe retornar un array con el valor del texto contenido dentro cada elemento que coincida con el locator
 
-  async getStringElementsByLocator(locator: string) {
+  async getElementsTextContentByLocator(locator: string) {
     // Tu código aquí:
   }
 }
