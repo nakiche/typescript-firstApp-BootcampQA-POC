@@ -25,7 +25,7 @@ function getRandomElement(arr: string[]) {
 // 🟢Ten en cuenta que el valor recibido por parametro es un Enum, es decir debes tratarlo como nombreEnum.Valor
 // hint. Estructura del enum en el archivo enums.ts
 
-export function RandomNameGenerator(nameOrLastname: values) {
+export function RandomNameGenerator(nameOrLastname: value) {
   let firstNames: string[] = [
     "James",
     "Mary",
